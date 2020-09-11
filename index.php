@@ -36,7 +36,96 @@
     <!-- Inserting Images -->
     <div id="background-image">
         <div id="image-1"></div>
-        <div id="image-2"></div>
+        <div id="image-2"></div>   
     </div>
+    <div class="col-md-2"></div>
+    <div class="col-md-8">
+        <h2 class="text-center">Featured Products</h2>
+        <div class="row">
+            <div class="col-md-3">
+                <h4>Levis Jeans</h4>
+                <img src="images/jeans.png" alt="Levis Jeans" id="images" />
+                <p class="list-price text-danger">List Price: <s>€24.99</s></p>
+                <p class="price">Our Price: €19.99</p>
+                <button type="button" class="btn btn-success" data-toggle="modal" data-target="#details-1">Details</button>
+            </div>
+
+            <div class="col-md-3">
+                <h4>Adidas Football</h4>
+                <img src="images/football.png" alt="Adidas Football" id="images" />
+                <p class="list-price text-danger">List Price: <s>€39.99</s></p>
+                <p class="price">Our Price: €29.99</p>
+                <button type="button" class="btn btn-success" data-toggle="modal" data-target="#details-2">Details</button>
+            </div>
+
+            <div class="col-md-3">
+                <h4>Gucci Watch</h4>
+                <img src="images/watch.png" alt="Gucci Watch" id="images" />
+                <p class="list-price text-danger">List Price: <s>€50.99</s></p>
+                <p class="price">Our Price: €37.99</p>
+                <button type="button" class="btn btn-success" data-toggle="modal" data-target="#details-3">Details</button>
+            </div>
+
+            <div class="col-md-3">
+                <h4>Polo Shirt</h4>
+                <img src="images/shirt.png" alt="Polo Shirt" id="images" />
+                <p class="list-price text-danger">List Price: <s>€62.99</s></p>
+                <p class="price">Our Price: €54.99</p>
+                <button type="button" class="btn btn-success" data-toggle="modal" data-target="#details-4">Details</button>
+            </div>
+
+            <div class="col-md-3">
+                <h4>Nike Joggers</h4>
+                <img src="images/joggers.png" alt="Nike Joggers" id="images" />
+                <p class="list-price text-danger">List Price: <s>€24.99</s></p>
+                <p class="price">Our Price: €19.99</p>
+                <button type="button" class="btn btn-success" data-toggle="modal" data-target="#details-5">Details</button>
+            </div>
+
+            <div class="col-md-3">
+                <h4>Purse</h4>
+                <img src="images/purse.png" alt="Purse" id="images" />
+                <p class="list-price text-danger">List Price: <s>€66.99</s></p>
+                <p class="price">Our Price: €61.99</p>
+                <button type="button" class="btn btn-success" data-toggle="modal" data-target="#details-6">Details</button>
+            </div>
+
+            <div class="col-md-3">
+                <h4>Hoodie</h4>
+                <img src="images/hoodie.png" alt="Hoodie" id="images" />
+                <p class="list-price text-danger">List Price: <s>€27.99</s></p>
+                <p class="price">Our Price: €19.99</p>
+                <button type="button" class="btn btn-success" data-toggle="modal" data-target="#details-7">Details</button>
+            </div>
+
+            <div class="col-md-3">
+                <h4>Head Band</h4>
+                <img src="images/head_band.png" alt="Head Band" id="images" />
+                <p class="list-price text-danger">List Price: <s>€9.99</s></p>
+                <p class="price">Our Price: €5.99</p>
+                <button type="button" class="btn btn-success" data-toggle="modal" data-target="#details-8">Details</button>
+            </div>
+        </div>
+        <br>
+        <footer class="text-center" id="footer">&copy; Copyright 2020-2021 QWERTY E-Commerce Website</footer>
+    </div>
+
+    <!-- details modal -->
+
+    <?php include 'php/details-modal-Jeans.php';
+          include 'php/details-modal-Football.php';
+          include 'php/details-modal-Watch.php';
+          include 'php/details-modal-HeadBand.php';
+          include 'php/details-modal-Hoodie.php';
+          include 'php/details-modal-Purse.php';
+          include 'php/details-modal-Joggers.php';
+          include 'php/details-modal-PoloShirt.php';
+    ?>
+    <!-- end of details modal -->
+
+
+
+
+
 </body>
 </html>
