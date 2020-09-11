@@ -1,0 +1,20 @@
+body {
+    padding-top: 50px;
+}
+
+.custom-navbar {
+    /* background-color: #FFF000; */
+    background-color: #31c224;
+}
+
+#background-image {
+    background-image: url(../images/background.jpg);
+}
+
+#image-1 {
+    background-image: url(../images/ecommerce2.png);
+}
+
+#image-1 {
+    background-image: url(../images/ecommerce.png);
+}
